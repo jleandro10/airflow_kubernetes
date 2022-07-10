@@ -18,7 +18,7 @@ spec:
   mode: cluster
   image: "docker.io/neylsoncrepalde/spark-operator:v3.0.0-aws"
   imagePullPolicy: Always
-  mainApplicationFile: s3a://emr-code-desafio/pyspark/spark_example.py
+  mainApplicationFile: s3a://emr-code-desafio/pyspark/spark-example.py
   sparkVersion: "3.0.0"
   restartPolicy:
     type: Never
